@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#090d13" name="theme-color"/><meta content="Infinity Sweeper 基本规则速查：雷区生成、点击反馈、陷阱修饰符、Boss 限时与生存压力。" name="description"/>
+<title>游戏基本规则 · Infinity Sweeper 攻略</title><meta content="zh_CN" property="og:locale"/><meta content="website" property="og:type"/><meta content="Infinity Sweeper 基本规则速查：雷区生成、点击反馈、陷阱修饰符、Boss 限时与生存压力。" property="og:description"/><meta content="游戏基本规则 · Infinity Sweeper 攻略" property="og:title"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body><a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+<div class="wrap">
+<a class="logo" href="index.html">∞ Sweeper <span class="tag">攻略</span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="展开导航" class="nav-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="站点导航" class="nav" id="site-nav"><a href="index.html">首页</a><a href="first-run.html">第一局</a><a href="playbook.html">手册</a><a href="mindset.html">心法</a><a aria-current="page" href="basics.html">规则</a><a href="builds.html">流派</a><a href="progression.html">构筑</a><a href="map.html">地图</a><a href="scoring.html">高分</a><a href="bosses.html">Boss</a><a href="tips.html">风险</a><a href="items/index.html">图鉴</a></nav>
+</div>
+</header>
+<main class="wrap article" id="main" tabindex="-1">
+<p class="breadcrumb"><a href="index.html">首页</a> / 基本规则</p>
+<h1>游戏基本规则</h1>
+<p class="lead">本章直接回应「雷怎么生成、点了会怎样、有没有时间压力」三类问题；与商店/媒体描述一致处会点明，其余请对照游戏内教程。</p>
+<section class="faq-block">
+<h2>雷的分布机制：完全随机，还是有规律 / 密度递增？</h2>
+<p>本作棋盘为<strong>程序生成</strong>，每盘面布局不同；这是 Roguelite 扫雷的基底，等价于「每关重新洗牌」。</p>
+<ul>
+<li><strong>是否「完全随机」</strong>：对玩家而言可视作随机分布，但程序生成通常会满足扫雷可解性与难度曲线（具体算法未在公开文案中展开）。</li>
+<li><strong>密度是否单调递增</strong>：公开介绍强调随进度<strong>版图变大</strong>、引入<strong>新危险与修饰符</strong>，难度上升主要来自「盘面规模 + 规则变体」，未必等同于「同一面积内雷占比线性变高」——<strong>以游戏内实际为准</strong>。</li>
+</ul>
+</section>
+<section class="faq-block">
+<h2>点击格子后会发生什么？有没有意外效果或隐藏机制？</h2>
+<ul>
+<li><strong>经典层</strong>：点到雷会触发惩罚（见下节「失误成本」）；点到安全格会显示数字，数字表示周围八格中的雷数——与传统扫雷一致。</li>
+<li><strong>Roguelite 层（已公开）</strong>：存在<strong>格子修饰符</strong>与<strong>陷阱</strong>，可能改变盘面形态或破坏格子等；这类效果在机制上属于「你点下去之后规则才完全展开」，容易体感成「隐藏机制」。<strong>新词条务必先读说明再连点。</strong></li>
+<li><strong>大面积连锁翻开</strong>：传统扫雷在翻开「0」格时会连锁展开空白区；本作若沿用同类手感，连锁属于「规则内揭示」而非加分特效，是否实现以客户端为准（参见 <a href="scoring.html">高分进阶</a>）。</li>
+</ul>
+</section>
+<section class="faq-block">
+<h2>是否有时间限制或其他生存压力？</h2>
+<ul>
+<li><strong>常规关卡</strong>：公开资料未强调「全关统一倒计时」；主要压力来自<strong>有限生命</strong>与盘面复杂化。</li>
+<li><strong>Boss 战</strong>：约<strong>每四关</strong>出现的 Boss 战为<strong>限时挑战</strong>，属于独立的时间压力源；打法见 <a href="bosses.html">Boss 专章</a>。</li>
+<li><strong>其他压力</strong>：陷阱与修饰符会提高信息噪声与误点代价，本质也是生存压力。</li>
+</ul>
+</section>
+<aside class="callout">
+<strong>操作建议（与规则配套）</strong>
+<ol>
+<li>把「必然推导」与「概率猜测」分开处理；后者尽量交给 <a href="progression.html">构筑</a>（卡牌 / 升级）或留到信息更全时。整体资源观见 <a href="mindset.html">心法</a>。</li>
+<li>遇到首次出现的修饰符，先观察一轮盘面反馈，再恢复手速。</li>
+</ol>
+</aside>
+<nav aria-label="上下篇导航" class="pager">
+<a class="btn" href="mindset.html">← 心法总览</a>
+<a class="btn" href="progression.html">下一章：构筑枢纽 →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<div class="wrap"><span>Infinity Sweeper 攻略 · 规则篇</span>
+<span><a href="credits.html">素材与来源</a> · <a href="https://store.steampowered.com/app/3161400/Infinity_Sweeper/" rel="noopener noreferrer" target="_blank">Steam 商店页 ↗</a></span>
+</div>
+</footer>
+<!-- ★ 回到顶部按钮 -->
+<button aria-label="回到顶部" id="back-to-top" title="回到顶部">↑</button>
+<!-- ★ 公共脚本 -->
+<script src="js/main.js"></script>
+</body>
+</html>

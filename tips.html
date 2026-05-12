@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#090d13" name="theme-color"/><meta content="Infinity Sweeper 风险管理：概率推导、生命投资、常见误区和不确定局面的处理顺序。" name="description"/>
+<title>玩家行为与风险管理 · Infinity Sweeper 攻略</title><meta content="zh_CN" property="og:locale"/><meta content="website" property="og:type"/><meta content="Infinity Sweeper 风险管理：概率推导、生命投资、常见误区和不确定局面的处理顺序。" property="og:description"/><meta content="玩家行为与风险管理 · Infinity Sweeper 攻略" property="og:title"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body><a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+<div class="wrap">
+<a class="logo" href="index.html">∞ Sweeper <span class="tag">攻略</span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="展开导航" class="nav-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="站点导航" class="nav" id="site-nav"><a href="index.html">首页</a><a href="first-run.html">第一局</a><a href="playbook.html">手册</a><a href="mindset.html">心法</a><a href="basics.html">规则</a><a href="builds.html">流派</a><a href="progression.html">构筑</a><a href="map.html">地图</a><a href="scoring.html">高分</a><a href="bosses.html">Boss</a><a aria-current="page" href="tips.html">风险</a><a href="items/index.html">图鉴</a></nav>
+</div>
+</header>
+<main class="wrap article" id="main" tabindex="-1">
+<p class="breadcrumb"><a href="index.html">首页</a> / 风险管理</p>
+<h1>玩家行为和风险管理</h1>
+<p class="lead">本章与 <a href="mindset.html">心法</a> 对齐：把失误成本讲透，并落实「概率推导、滚雪球升级、生命可作战术投资」的操作纪律。</p>
+<section class="faq-block">
+<h2>玩家失误成本多高？是否容错？</h2>
+<ul>
+<li>公开信息多次提到一局有<strong>三条命</strong>，踩雷会消耗生命；生命耗尽则当局结束——相对休闲扫雷，这是<strong>有上限的容错</strong>，但绝非「无限撤销」。</li>
+<li>部分媒体表述强调「错点代价高」，应理解为：在 Roguelite 进程里，<strong>每一次误触都在透支当局续航</strong>，而不是单机练习模式的无痛重来。</li>
+<li>容错还可来自 <a href="progression.html">构筑</a>（<a href="build-permanent.html">永久</a> / <a href="build-tile.html">格子</a> / <a href="build-cards.html">卡牌</a>），属于「用资源买安全边际」。</li>
+</ul>
+</section>
+<section class="faq-block" id="lives">
+<h2 id="lives">三点生命值：可主动投资的战术资源</h2>
+<p>与「追求全程零踩雷」不同，资深打法会把生命看作<strong>有限次、可定价的试错权</strong>：当逻辑已穷尽、且某一步能显著扩张信息或锁定关键路径时，可以<strong>有意识地付出一命</strong>换取大局进展——这与情绪化乱点有本质区别。</p>
+<ul>
+<li><strong>投资前自问</strong>：若这一步是雷，我损失一命后，盘面是否仍可治？是否仍保留 Boss 前囤牌的可能？</li>
+<li><strong>与卡牌分工</strong>：时间或局面「不能再等」时优先 <a href="build-cards.html">交牌</a>；可缓释的歧义可权衡「交牌 vs 卖命」哪边更省总资源。</li>
+<li><strong>止损</strong>：两命以上时仍可适当冒险；剩一命时默认切换保守模式，除非已进入 <a href="bosses.html">Boss</a> 且倒计时逼迫。</li>
+</ul>
+</section>
+<section class="faq-block">
+<h2>不盲猜：基于数字与已知信息的概率思维</h2>
+<ul>
+<li>先穷尽<strong>逻辑必然</strong>（唯一解）；剩余候选格再用约束缩小概率空间，而不是凭手感「点中间」。</li>
+<li>当多格期望接近时，优先动<strong>能连带揭示更多约束</strong>的格，提高信息增益（与 Boss 战「情报格优先」同构）。</li>
+</ul>
+</section>
+<section class="faq-block" id="fifty-fifty">
+<h2>新增：50/50 与伪死局处理</h2>
+<p>资深玩家真正要避免的不是「赌输」，而是把本可继续推导的盘面误判成 50/50。</p>
+<ol class="decision-tree">
+<li>先检查所有数字边界是否都参与了约束，尤其是被陷阱或特殊格改变过的邻接。</li>
+<li>若仍无唯一解，比较候选格的信息收益：优先动能打开更多数字边界的一侧。</li>
+<li>若 Boss 倒计时逼近，信息牌优先于生命；普通关且还有两命以上时，可考虑生命买信息。</li>
+<li>点之前写下最坏情况：点错后是否还能用剩余资源完成本层？不能，就先绕路或交牌。</li>
+</ol>
+</section>
+<section class="faq-block">
+<h2>常见高效策略（简版清单）</h2>
+<ol>
+<li><strong>前期升级偏好</strong>：生存允许时，倾向<strong>经济类与情报类</strong>选项（见 <a href="build-permanent.html">永久升级</a> 选购顺序与 <a href="mindset.html">心法</a>），让金币与信息更快滚雪球。</li>
+<li><strong>边角优先</strong>：更快得到可确定格，减少开局盲赌（仍非绝对安全，只是期望更好）。</li>
+<li><strong>标记即内存</strong>：确认雷立即标出，避免脑内堆栈过深。</li>
+<li><strong>分区推进</strong>：大图时按边界块推进，防止视线在盘上乱跳。</li>
+<li><strong>新词条减速</strong>：<a href="map.html">修饰符与陷阱</a> 首次出现时，先理解作用域再加速点击；失败后按地图篇「重挂载」流程复盘。</li>
+<li><strong>Boss 专备资源</strong>：见 <a href="bosses.html">Boss 章</a>。</li>
+</ol>
+</section>
+<section class="faq-block">
+<h2>容易踩坑的地方</h2>
+<ul>
+<li><strong>把经典定式硬套到被陷阱改写的边界</strong>：数字所约束的邻格集合若被改变，旧结论可能整段失效。</li>
+<li><strong>把概率格当逻辑格硬点</strong>：无唯一解时要么等更多信息，要么交道具，要么有纪律地动用生命试错——但不要假装「算过了」。</li>
+<li><strong>前期挥霍一次性牌</strong>：导致 <a href="bosses.html">Boss</a> 或深层修饰符叠时没有保险。</li>
+<li><strong>倒计时下改操作顺序</strong>：越急越应坚持「先标后点」的纪律。</li>
+</ul>
+</section>
+<aside class="callout">
+<strong>复盘建议</strong>
+<p>连续两三局只记一类死因（误点 / 歧义赌输 / Boss 超时 / 被陷阱改规则 / 商店投资断档），下一局只改一个习惯。比盲目堆局数更有效。</p>
+<div class="review-card mini"><p><strong>复盘句式：</strong>「我在 ____ 阶段，因为 ____，损失了 ____；下一局我只改 ____。」</p></div>
+</aside>
+<nav aria-label="上下篇导航" class="pager">
+<a class="btn" href="bosses.html">← 上一章：Boss</a>
+<a class="btn" href="index.html">返回首页</a>
+</nav>
+</main>
+<footer class="site-footer">
+<div class="wrap"><span>Infinity Sweeper 攻略 · 风险篇</span>
+<span><a href="credits.html">素材与来源</a> · <a href="https://store.steampowered.com/app/3161400/Infinity_Sweeper/" rel="noopener noreferrer" target="_blank">Steam 商店页 ↗</a></span>
+</div>
+</footer>
+<!-- ★ 回到顶部按钮 -->
+<button aria-label="回到顶部" id="back-to-top" title="回到顶部">↑</button>
+<!-- ★ 公共脚本 -->
+<script src="js/main.js"></script>
+</body>
+</html>

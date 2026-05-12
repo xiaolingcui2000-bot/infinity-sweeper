@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#090d13" name="theme-color"/>
+<title>可筛选图鉴数据库 · Infinity Sweeper 攻略</title>
+<meta content="Infinity Sweeper 可筛选图鉴数据库：按类型、用途、准确度和关键词筛选道具与机制条目。" name="description"/>
+<meta content="zh_CN" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="可筛选图鉴数据库 · Infinity Sweeper 攻略" property="og:title"/>
+<meta content="Infinity Sweeper 可筛选图鉴数据库：按类型、用途、准确度和关键词筛选道具与机制条目。" property="og:description"/>
+<link href="../css/style.css" rel="stylesheet"/>
+</head>
+<body><a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+<div class="wrap">
+<a class="logo" href="../index.html">∞ Sweeper <span class="tag">攻略</span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="展开导航" class="nav-toggle" type="button"><span></span><span></span><span></span></button>
+<nav aria-label="站点导航" class="nav" id="site-nav"><a href="../index.html">首页</a><a href="../first-run.html">第一局</a><a href="../playbook.html">手册</a><a href="../mindset.html">心法</a><a href="../basics.html">规则</a><a href="../builds.html">流派</a><a href="../progression.html">构筑</a><a href="../map.html">地图</a><a href="../scoring.html">高分</a><a href="../bosses.html">Boss</a><a href="../tips.html">风险</a><a aria-current="page" href="../items/index.html">图鉴</a></nav>
+</div>
+</header>
+<main class="wrap article" id="main" tabindex="-1">
+<p class="breadcrumb"><a href="../index.html">首页</a> / <a href="index.html">图鉴</a> / 筛选数据库</p>
+<h1>可筛选图鉴数据库</h1>
+<p class="lead">把图鉴从“章节阅读”升级成“查表工具”。你可以按类型、用途、准确度筛选，也可以直接搜索条目名、用途或说明。</p>
+<section aria-label="图鉴筛选器" class="codex-filters">
+<label>关键词<input id="codex-search" placeholder="搜索：陷阱、金币、Boss、揭示…" type="search"/></label>
+<label>类型<select id="codex-type"><option value="">全部类型</option><option>机制格</option><option>格子升级</option><option>永久升级</option><option>消耗牌</option></select></label>
+<label>用途<select id="codex-use"><option value="">全部用途</option><option>生存</option><option>经济</option><option>情报</option><option>Boss</option><option>风险</option><option>冲分</option></select></label>
+<label>准确度<select id="codex-accuracy"><option value="">全部准确度</option><option>官方确认</option><option>成就推断</option><option>攻略站归类</option><option>待实机核对</option></select></label>
+<button class="btn" id="codex-reset" type="button">重置</button>
+</section>
+<p aria-live="polite" class="table-status" id="codex-status"></p>
+<div class="compendium-table-wrap">
+<table class="compendium-table codex-db">
+<thead><tr><th>图</th><th>条目</th><th>类型</th><th>用途</th><th>准确度</th><th>来源</th></tr></thead>
+<tbody><tr data-accuracy="成就推断" data-keywords="紫印格 机制格 风险 成就推断 封印状态，和揭示节奏、场面状态判断相关。" data-type="机制格" data-use="风险">
+<td class="db-thumb"><img alt="紫印格配图" decoding="async" loading="lazy" src="../assets/images/official/ach-purple-reign.jpg"/></td>
+<td><a href="mechanics.html#purple-seal"><strong>紫印格</strong></a><p>封印状态，和揭示节奏、场面状态判断相关。</p></td>
+<td>机制格</td><td>风险</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="红印格 机制格 风险 成就推断 高风险或敌性提示，与紫印并列形成状态识别体系。" data-type="机制格" data-use="风险">
+<td class="db-thumb"><img alt="红印格配图" decoding="async" loading="lazy" src="../assets/images/official/ach-alert-red-seal.jpg"/></td>
+<td><a href="mechanics.html#red-seal"><strong>红印格</strong></a><p>高风险或敌性提示，与紫印并列形成状态识别体系。</p></td>
+<td>机制格</td><td>风险</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="双印同格 机制格 风险 成就推断 同一格叠加两类印，推导时应当视为组合状态。" data-type="机制格" data-use="风险">
+<td class="db-thumb"><img alt="双印同格配图" decoding="async" loading="lazy" src="../assets/images/official/ach-double-marked.jpg"/></td>
+<td><a href="mechanics.html#double-marked"><strong>双印同格</strong></a><p>同一格叠加两类印，推导时应当视为组合状态。</p></td>
+<td>机制格</td><td>风险</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="陷阱格 机制格 风险 成就推断 随进度进入随机池的负面场地机制。" data-type="机制格" data-use="风险">
+<td class="db-thumb"><img alt="陷阱格配图" decoding="async" loading="lazy" src="../assets/images/official/ach-ninja-traps.jpg"/></td>
+<td><a href="mechanics.html#trap-tile"><strong>陷阱格</strong></a><p>随进度进入随机池的负面场地机制。</p></td>
+<td>机制格</td><td>风险</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="敌怪格 机制格 风险 成就推断 敌性占位会改变邻域判断和展开路线。" data-type="机制格" data-use="风险">
+<td class="db-thumb"><img alt="敌怪格配图" decoding="async" loading="lazy" src="../assets/images/official/ach-surrounded.jpg"/></td>
+<td><a href="mechanics.html#enemy-tile"><strong>敌怪格</strong></a><p>敌性占位会改变邻域判断和展开路线。</p></td>
+<td>机制格</td><td>风险</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="零敌整板 机制格 冲分 成就推断 无敌怪条件下完成整板揭示，用于理解敌怪维度。" data-type="机制格" data-use="冲分">
+<td class="db-thumb"><img alt="零敌整板配图" decoding="async" loading="lazy" src="../assets/images/official/ach-one-click.jpg"/></td>
+<td><a href="mechanics.html#zero-enemy-board"><strong>零敌整板</strong></a><p>无敌怪条件下完成整板揭示，用于理解敌怪维度。</p></td>
+<td>机制格</td><td>冲分</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="三阶格子收藏 格子升级 冲分 成就推断 高阶格子收集目标，适合中后期构筑追求。" data-type="格子升级" data-use="冲分">
+<td class="db-thumb"><img alt="三阶格子收藏配图" decoding="async" loading="lazy" src="../assets/images/official/ach-fancy-tier3.jpg"/></td>
+<td><a href="tile-upgrades.html#tier3-collection"><strong>三阶格子收藏</strong></a><p>高阶格子收集目标，适合中后期构筑追求。</p></td>
+<td>格子升级</td><td>冲分</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="成就推断" data-keywords="棋类升级线 格子升级 冲分 成就推断 国际象棋主题升级，偏套装协同。" data-type="格子升级" data-use="冲分">
+<td class="db-thumb"><img alt="棋类升级线配图" decoding="async" loading="lazy" src="../assets/images/official/ach-opening-theory.jpg"/></td>
+<td><a href="tile-upgrades.html#chess-upgrades"><strong>棋类升级线</strong></a><p>国际象棋主题升级，偏套装协同。</p></td>
+<td>格子升级</td><td>冲分</td>
+<td><span class="source-badge inferred">成就推断</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="盘面修饰升级 格子升级 情报 攻略站归类 向棋盘引入新元素或新交互，需实机核对具体名。" data-type="格子升级" data-use="情报">
+<td class="db-thumb"><img alt="盘面修饰升级配图" decoding="async" loading="lazy" src="../assets/images/official/official-right-panel.jpg"/></td>
+<td><a href="tile-upgrades.html#tile-upgrades"><strong>盘面修饰升级</strong></a><p>向棋盘引入新元素或新交互，需实机核对具体名。</p></td>
+<td>格子升级</td><td>情报</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>公开素材/本站整理</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="生命缓冲 永久升级 生存 攻略站归类 降低误点惩罚，开荒优先级高。" data-type="永久升级" data-use="生存">
+<td class="db-thumb"><img alt="生命缓冲配图" decoding="async" loading="lazy" src="../assets/images/official/ach-blossom.jpg"/></td>
+<td><a href="permanents.html#life-buffer"><strong>生命缓冲</strong></a><p>降低误点惩罚，开荒优先级高。</p></td>
+<td>永久升级</td><td>生存</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>攻略站整理</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="金币与商店 永久升级 经济 攻略站归类 提高清盘收益、折扣、刷新或商品位，是滚雪球核心。" data-type="永久升级" data-use="经济">
+<td class="db-thumb"><img alt="金币与商店配图" decoding="async" loading="lazy" src="../assets/images/official/ach-treasure-hunter.jpg"/></td>
+<td><a href="permanents.html#economy-shop"><strong>金币与商店</strong></a><p>提高清盘收益、折扣、刷新或商品位，是滚雪球核心。</p></td>
+<td>永久升级</td><td>经济</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>Steam 成就图标</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="信息增益 永久升级 情报 攻略站归类 提高揭示与反馈，降低纯猜概率。" data-type="永久升级" data-use="情报">
+<td class="db-thumb"><img alt="信息增益配图" decoding="async" loading="lazy" src="../assets/images/official/official-card-exposing.jpg"/></td>
+<td><a href="permanents.html#info-gain"><strong>信息增益</strong></a><p>提高揭示与反馈，降低纯猜概率。</p></td>
+<td>永久升级</td><td>情报</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>公开素材/本站整理</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="Boss 对策 永久升级 Boss 攻略站归类 服务于限时和陷阱环境的稳定性。" data-type="永久升级" data-use="Boss">
+<td class="db-thumb"><img alt="Boss 对策配图" decoding="async" loading="lazy" src="../assets/images/official/official-card-trap-fixers.jpg"/></td>
+<td><a href="permanents.html#boss-counter"><strong>Boss 对策</strong></a><p>服务于限时和陷阱环境的稳定性。</p></td>
+<td>永久升级</td><td>Boss</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>公开素材/本站整理</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="金币增益牌 消耗牌 经济 攻略站归类 一次性收益牌，适合经济线已能转化收益时使用。" data-type="消耗牌" data-use="经济">
+<td class="db-thumb"><img alt="金币增益牌配图" decoding="async" loading="lazy" src="../assets/images/official/ach-big-spender.jpg"/></td>
+<td><a href="consumables.html#gold-boost"><strong>金币增益牌</strong></a><p>一次性收益牌，适合经济线已能转化收益时使用。</p></td>
+<td>消耗牌</td><td>经济</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>公开素材/本站整理</td>
+</tr><tr data-accuracy="官方确认" data-keywords="揭示探雷牌 消耗牌 情报 官方确认 直接压缩未知集合，是 Boss 与死局保险。" data-type="消耗牌" data-use="情报">
+<td class="db-thumb"><img alt="揭示探雷牌配图" decoding="async" loading="lazy" src="../assets/images/official/official-card-exposing.jpg"/></td>
+<td><a href="consumables.html#reveal-scan"><strong>揭示探雷牌</strong></a><p>直接压缩未知集合，是 Boss 与死局保险。</p></td>
+<td>消耗牌</td><td>情报</td>
+<td><span class="source-badge confirmed">官方确认</span></td>
+<td>预告片/公开素材</td>
+</tr><tr data-accuracy="攻略站归类" data-keywords="生命回复牌 消耗牌 生存 攻略站归类 把失误转为可继续推进的容错资源。" data-type="消耗牌" data-use="生存">
+<td class="db-thumb"><img alt="生命回复牌配图" decoding="async" loading="lazy" src="../assets/images/official/official-card-assistant.jpg"/></td>
+<td><a href="consumables.html#heal-revive"><strong>生命回复牌</strong></a><p>把失误转为可继续推进的容错资源。</p></td>
+<td>消耗牌</td><td>生存</td>
+<td><span class="source-badge guide">攻略站归类</span></td>
+<td>公开素材/本站整理</td>
+</tr><tr data-accuracy="待实机核对" data-keywords="节奏操控牌 消耗牌 Boss 待实机核对 冻结、重整或路线选择类效果需要实机确认。" data-type="消耗牌" data-use="Boss">
+<td class="db-thumb"><img alt="节奏操控牌配图" decoding="async" loading="lazy" src="../assets/images/official/official-card-select-path.jpg"/></td>
+<td><a href="consumables.html#tempo-control"><strong>节奏操控牌</strong></a><p>冻结、重整或路线选择类效果需要实机确认。</p></td>
+<td>消耗牌</td><td>Boss</td>
+<td><span class="source-badge pending">待实机核对</span></td>
+<td>公开素材/本站整理</td>
+</tr></tbody>
+</table>
+</div>
+<aside class="callout"><strong>为什么要有准确度？</strong><p>因为图鉴中混合了公开素材、成就推断和攻略站功能归类。筛选时请优先把“官方确认”和“成就推断”当作稳定信息，把“攻略站归类”和“待实机核对”当作整理建议。</p></aside>
+<nav aria-label="上下篇导航" class="pager"><a class="btn" href="index.html">← 图鉴首页</a><a class="btn" href="../credits.html">素材与来源说明 →</a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<span>Infinity Sweeper 非官方攻略站 · 静态多页面</span>
+<span><a href="../credits.html">素材与来源</a> · <a href="https://store.steampowered.com/app/3161400/Infinity_Sweeper/" rel="noopener noreferrer" target="_blank">Steam 商店页 ↗</a></span>
+</div>
+</footer>
+<button aria-label="回到顶部" id="back-to-top" title="回到顶部">↑</button>
+<script src="../js/main.js"></script>
+</body></html>

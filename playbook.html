@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#090d13" name="theme-color"/>
+<title>资深玩家作战手册 · Infinity Sweeper 攻略</title>
+<meta content="Infinity Sweeper 资深玩家作战手册：按目标选择阅读路线、开局到 Boss 的实战流程、商店优先级和翻车复盘模板。" name="description"/>
+<meta content="zh_CN" property="og:locale"/><meta content="website" property="og:type"/>
+<meta content="Infinity Sweeper 资深玩家作战手册：路线选择器、实战流程、商店决策与复盘模板。" property="og:description"/>
+<meta content="资深玩家作战手册 · Infinity Sweeper 攻略" property="og:title"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body><a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+<div class="wrap">
+<a class="logo" href="index.html">∞ Sweeper <span class="tag">攻略</span></a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="展开导航" class="nav-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="站点导航" class="nav" id="site-nav"><a href="index.html">首页</a><a href="first-run.html">第一局</a><a aria-current="page" href="playbook.html">手册</a><a href="mindset.html">心法</a><a href="basics.html">规则</a><a href="builds.html">流派</a><a href="progression.html">构筑</a><a href="map.html">地图</a><a href="scoring.html">高分</a><a href="bosses.html">Boss</a><a href="tips.html">风险</a><a href="items/index.html">图鉴</a></nav>
+</div>
+</header>
+<main class="wrap article" id="main" tabindex="-1">
+<p class="breadcrumb"><a href="index.html">首页</a> / 资深玩家作战手册</p>
+<figure class="media-banner">
+<img alt="Infinity Sweeper Steam 官方宣传图" decoding="async" height="353" loading="lazy" src="assets/images/official/steam-main-capsule.jpg" width="616"/>
+</figure>
+<h1>资深玩家作战手册</h1>
+<p class="lead">原攻略的章节已经完整，但对实战玩家来说还缺一个「进游戏前就能照着做」的中控页。本页把全站内容压缩成目标路线、商店判定、Boss 前检查和翻车复盘四个动作。</p>
+<section aria-labelledby="route-title" class="quick-panel">
+<div>
+<p class="eyebrow">30 秒路线选择器</p>
+<h2 id="route-title">先选你这局的目标</h2>
+<p>不同目标不该读同一套优先级。点选当前痛点，下面会切换成对应的路线卡。</p>
+</div>
+<div aria-label="选择当前攻略目标" class="route-selector" role="group">
+<button class="route-btn is-active" data-route="new" type="button">刚开荒</button>
+<button class="route-btn" data-route="boss" type="button">卡 Boss</button>
+<button class="route-btn" data-route="score" type="button">冲高分</button>
+<button class="route-btn" data-route="codex" type="button">补图鉴</button>
+</div>
+<div aria-live="polite" class="route-result">
+<h3 data-route-title="">刚开荒：先买稳定，再谈花活</h3>
+<p data-route-desc="">阅读顺序：规则 → 心法 → 构筑。商店优先保命、信息、经济；第一阶段不要为了爽感过早消耗关键牌。</p>
+<ul data-route-list="">
+<li>先进 <a href="basics.html">规则</a>，确认数字、陷阱、生命的基本边界。</li>
+<li>再读 <a href="mindset.html">心法</a>，把三条命看成可定价资源。</li>
+<li>第一批金币优先投向 <a href="build-permanent.html">永久升级</a>。</li>
+</ul>
+</div>
+</section>
+<section class="faq-block">
+<h2>一局实战流程：像跑副本一样跑扫雷</h2>
+<div class="phase-grid">
+<article class="phase-card"><span class="pill">00 开局</span><h3>先找锚点</h3><p>不要急着连点。先找边角、空白扩张点和能形成约束的数字边界，让第一轮信息尽快成网。</p></article>
+<article class="phase-card"><span class="pill">01 中盘</span><h3>分区推进</h3><p>把大盘切成 2–3 个边界区，每次只处理一个约束集合。标记是外置记忆，不是可有可无的手感动作。</p></article>
+<article class="phase-card"><span class="pill">02 商店</span><h3>买复利，不买情绪</h3><p>能降低后续所有局失误成本的永久升级，通常高于一次性爽点；除非下一层会立刻进入高压 Boss。</p></article>
+<article class="phase-card"><span class="pill">03 Boss 前</span><h3>停止挥霍</h3><p>Boss 前一层开始保留至少一张解歧义牌；把生命、卡牌、可揭示格当作同一套保险池。</p></article>
+</div>
+</section>
+<section class="faq-block">
+<h2>商店 4 问：不会选就按这个评分</h2>
+<div class="priority-table-wrap">
+<table class="priority-table">
+<thead><tr><th>问题</th><th>高分答案</th><th>策略含义</th></tr></thead>
+<tbody>
+<tr><td>它是否跨局生效？</td><td>是</td><td><strong>优先级 +2</strong>，永久线通常是最稳复利。</td></tr>
+<tr><td>它是否减少误点 / 超时 / 死局？</td><td>是</td><td><strong>优先级 +2</strong>，能把新手波动压下来。</td></tr>
+<tr><td>它是否放大当前流派？</td><td>是，但依赖盘面</td><td><strong>优先级 +1</strong>，适合中盘成型后加码。</td></tr>
+<tr><td>它只是一次性收益？</td><td>是</td><td><strong>默认 +0</strong>，只在 Boss 前或当前死局插队。</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="faq-block">
+<h2>50/50 死局 SOP：不要把赌博包装成推理</h2>
+<ol class="decision-tree">
+<li><strong>先确认真死局</strong>：检查是否还有未合并的数字约束、陷阱改写、边界漏标。</li>
+<li><strong>再算信息收益</strong>：两个概率接近时，优先选择翻开后能暴露更多数字边界的格。</li>
+<li><strong>再比资源价格</strong>：交牌、卖一命、绕路拖延，三者哪个保留更多 Boss 前保险？</li>
+<li><strong>最后才点</strong>：点之前把「点错后的下一步」想好，避免一错连错。</li>
+</ol>
+</section>
+<section class="faq-block">
+<h2>Boss 前口袋清单</h2>
+<div class="checklist-panel">
+<label><input type="checkbox"/> 至少保留一张解歧义 / 揭示类消耗牌</label>
+<label><input type="checkbox"/> 生命不是 1 点，或已有回复 / 保命手段</label>
+<label><input type="checkbox"/> 已确认当前陷阱或修饰符不会改写常规数字邻接</label>
+<label><input type="checkbox"/> 进场前三手已规划：先锚点、再标记、再扩张</label>
+</div>
+</section>
+<section class="faq-block">
+<h2>翻车复盘模板：只改一个习惯</h2>
+<div class="review-card">
+<p><strong>死因分类：</strong>误点 / 50-50 赌输 / Boss 超时 / 陷阱读错 / 商店投资断档。</p>
+<p><strong>下一局只改一件事：</strong>例如「Boss 前不再交最后一张揭示牌」或「新陷阱出现后先慢 10 秒读规则」。</p>
+<p><strong>不要写：</strong>我太菜了。<strong>要写：</strong>哪一个动作在制造重复损失。</p>
+</div>
+</section>
+<aside class="callout"><strong>耳目一新的设计点</strong><p>这页不是传统「资料堆叠」，而是把攻略做成<strong>可操作仪表盘</strong>：目标选择器负责分流，流程卡负责进局执行，商店评分负责购买，复盘模板负责长期成长。</p></aside>
+<section aria-labelledby="crash-coach-title" class="crash-coach" id="crash-coach">
+<p class="eyebrow">失败复盘评分器</p>
+<h2 id="crash-coach-title">输一局后，先别急着重开</h2>
+<p>勾选这局最符合的翻车原因，系统会给出下一局优先改的动作。每次只改一个习惯，提升最快。</p>
+<form class="coach-form" id="crash-coach-form">
+<label><input name="cause" type="checkbox" value="misclick"/> 我死于手快误点或视线乱跳</label>
+<label><input name="cause" type="checkbox" value="boss"/> 我主要卡在 Boss 倒计时</label>
+<label><input name="cause" type="checkbox" value="shop"/> 我感觉商店买错，后面越来越无力</label>
+<label><input name="cause" type="checkbox" value="guess"/> 我把 50/50 或伪死局当成必须赌博</label>
+<label><input name="cause" type="checkbox" value="trap"/> 我没有看懂陷阱、敌怪或印记机制</label>
+<label><input name="cause" type="checkbox" value="greed"/> 我为了金币或高分过度贪心</label>
+<button class="btn primary" type="submit">生成下一局建议</button>
+</form>
+<div aria-live="polite" class="coach-result" id="crash-coach-result">
+<h3>下一局只改一个动作</h3>
+<p>勾选原因后，这里会生成建议。</p>
+</div>
+</section><nav aria-label="上下篇导航" class="pager">
+<a class="btn" href="index.html">← 返回首页</a>
+<a class="btn" href="progression.html">继续：构筑枢纽 →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<div class="wrap"><span>Infinity Sweeper 攻略 · 作战手册</span><span><a href="credits.html">素材与来源</a> · <a href="https://store.steampowered.com/app/3161400/Infinity_Sweeper/" rel="noopener noreferrer" target="_blank">Steam 商店页 ↗</a></span></div>
+</footer>
+<button aria-label="回到顶部" id="back-to-top" title="回到顶部">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
